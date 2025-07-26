@@ -1,0 +1,27 @@
+```css body {   margin: 0;   font-family: Arial, sans-serif;   
+             background-color: #fff;   color: #000; }  .
+container {   max-width: 960px;   margin: 20px auto;  
+           padding: 0 16px;   display: flex;   flex-direction: column; }  
+/* Banners / .banners {   display: flex;   gap: 16px;   margin-bottom: 24px;   
+flex-wrap: wrap;   justify-content: center; }  
+.banner {   flex: 1 1 45%;   max-width: 45%;   border-radius: 8px;   
+overflow: hidden;   box-shadow: 0 0 8px rgba(0,0,0,0.2); }  
+.banner img {   width: 100%;   height: auto;   display: block; }  
+/ Player de vídeo */ .video-player {   width: 100%;   height:
+540px;   background-color: #000;   display: flex;   
+                                    justify-content: center;   align-items: center;   
+                                    color: #fff;   font-size: 24px; }  /* Informações do vídeo / .video-info 
+{   margin-top:16px; }  .video-title {   font-size:22px;   font-weight:bold;   
+margin-bottom:8px; }  
+.channel-info {   display:flex;   
+align-items:center;  margin-bottom:16px;  }  
+.channel-avatar {  width:48px;   height:48px;   
+border-radius:50%;  background-color:#ccc; / substitua pela imagem real /  
+margin-right:12px;  }  .channel-name {  font-weight:bold;  }  
+/ Descrição / .description {  font-size:14px;   line-height:1.5em;  }  
+/ Exemplo de layout responsivo / @media (max-width:900px) {  .banner {    flex-basis:100%;     
+max-width:100%;     margin-bottom:16px;   }    .video-player {    
+height:300px; / ajustei para ficar melhor em telas menores */    font-size:18px;   }    
+.container {    padding:0 8px;   }    .channel-avatar {    width:36px;     height:36px;     
+                                                       margin-right:8px;   }    
+.video-title {    font-size:18px;     margin-bottom:6px;    }    .description {    font-size:13px;    } }   ---  ###
